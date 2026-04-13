@@ -51,36 +51,4 @@ Todas las fuentes son propiedad de la Cámara de Comercio de Bogotá y no están
 
 ---
 
-## Estructura del repositorio
-
-```
-├── Código Anádima.ipynb            # Análisis completo: EDA, modelos, clustering, mapas
-├── Informe Final Data Anádima.pdf  # Documento de hallazgos y recomendaciones de política
-├── requirements.txt                # Dependencias del entorno Python
-├── Reglamento.pdf                  # Bases del DATAJAM 2026
-└── visualizaciones/                # 15 gráficos exportados (PNG)
-```
-
----
-
-## Cómo ejecutar el proyecto
-
-```bash
-# 1. Clonar el repositorio
-git clone https://github.com/<usuario>/Concurso_Datos_por_la_Seguridad.git
-cd Concurso_Datos_por_la_Seguridad
-
-# 2. Crear entorno e instalar dependencias
-python -m venv venv
-source venv/bin/activate        # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-
-# 3. Abrir el notebook
-jupyter notebook "Código Anádima.ipynb"
-```
-
-> **Nota:** Los datos originales (ECE, EPV, ECN) son propiedad de la Cámara de Comercio de Bogotá y no están incluidos en este repositorio. El notebook requiere acceso a los archivos de datos para ejecutarse completamente.
-
----
-
-*Equipo Data Anádima — Ana Sofia Sánchez, David Rodríguez, Michelt Guarin · Tutor: Santiago Neira · Universidad de los Andes · 2026.*
+*Equipo Data Anádima — Ana Sofia Sánchez, David Rodríguez Caballero, Michelt Guarin · Tutor: Santiago Neira · Universidad de los Andes · 2026.*
