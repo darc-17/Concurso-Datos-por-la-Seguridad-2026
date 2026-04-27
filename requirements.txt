@@ -1,18 +1,12 @@
-# =============================================================================
-# Reto 2: Seguridad y Obras Públicas - Bogotá
-# Concurso de Datos por la Seguridad - CCB
-# =============================================================================
-# Instalar con: pip install -r requirements.txt
-
 # --- Core ---
 pandas>=3.0.0
 numpy>=1.24.0
-openpyxl>=3.1.0          # Leer archivos .xlsx
+openpyxl>=3.1.0
 
 # --- Visualización ---
 matplotlib>=3.7.0
 seaborn>=0.12.0
-plotly>=5.15.0            # Gráficos interactivos
+plotly>=5.15.0
 
 # --- Econometría y Estadística ---
 statsmodels>=0.14.0       # OLS, Logit, Probit, tests
@@ -22,7 +16,7 @@ linearmodels>=5.0         # Modelos de panel (si se usa)
 # --- Machine Learning / Clustering ---
 scikit-learn>=1.3.0       # KMeans, DBSCAN, PCA, métricas
 
-# --- Geoespacial (opcional) ---
+# --- Geoespacial ---
 geopandas>=0.13.0       # Mapas y análisis espacial
 folium>=0.14.0          # Mapas interactivos
 
